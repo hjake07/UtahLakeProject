@@ -1,0 +1,118 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+body {
+    background: rgb(139, 138, 138) url(Lake.jpg) center center no-repeat;
+    background-size: 1200px;
+}
+ul {
+    display:inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+}
+li {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
+.navigation {
+    text-align: center;
+    display:flex;
+    border: solid gray 1px;
+    background-color: rgb(149, 204, 46);
+    padding: 0 5px;
+
+}
+p {
+    text-align:left;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 800px;
+    color: white;
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+h1 {
+    padding: 0 50px;
+    display: flex;
+    background-color: white;
+    opacity: 0.6;
+}
+h2 {
+    padding: 0 50px;
+    display: flex;
+    background-color: white;
+    opacity: 0.6;
+}
+footer {
+    bottom: 0;
+    position:absolute;
+    text-align: center;
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    justify-content: center;
+    width: 100%;
+}
+dd {
+    float:left;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    opacity: 0.6;
+    background-color: white;
+    font-size: 28px;
+}
+dl li {
+    display: flex;
+    opacity: 0.6;
+    background-color: white;
+    font-size: 20px;
+}
+#WhiteBass {
+    height: 100px;
+    width: 300px;
+}
+#Channel {
+    height:150px;
+    width: 150px;
+}
+img {
+    float:left;
+}
+.honorableMentions {
+    font-size: 26px;
+    padding: 6px;
+    bottom: 0;
+    width: 100%
+}
+.baitBody {
+    text-align: center;
+}
+.WhiteBassHeading {
+    float:left;
+    padding: 10px;
+}
+.ChannelHeading {
+
+    padding: 10px;
+}
+.BullheadHeading {
+    float:left;
+    padding: 10px;
+}
+.CarpHeading {
+    float: left;
+    padding: 10px;
+}
+h3 {
+    text-align: left;
+    font-size: 26px;
+    padding: 0 50px;
+    background-color: white;
+    opacity: 0.6;
+}
